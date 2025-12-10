@@ -46,3 +46,25 @@ Track it
 Include it in the SBOM
 
 Apply policies
+
+&&&&&&&&&&&&&&&&&
+
+GitHub stores:
+
+package.json
+
+Commit history
+
+Branches
+
+FOSSA:
+
+Connects to GitHub
+
+Clones the repo
+
+Reads package.json
+
+Extracts dependency data
+
+Builds an SBOM
