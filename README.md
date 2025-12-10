@@ -68,3 +68,41 @@ Reads package.json
 Extracts dependency data
 
 Builds an SBOM
+
+&&&&&&&&&&&&&&&&&&&&&&&
+
+The Zero-day detection process:
+
+“There’s a zero-day for XYZ Package, no CVE yet, we need to be proactive.”
+
+Step 1: Identify exposure
+
+Use FOSSA’s scans or SBOM uploads
+
+Query dependencies via API
+
+Identify which projects use xyz-lib
+
+Step 2: Understand blast radius
+
+Which repos?
+
+Which versions?
+
+Which teams?
+
+Step 3: Prevent usage
+
+Create a policy that blocks xyz-lib
+
+Apply policy to all projects
+
+Enforce in CI/CD
+
+Step 4: Monitor and respond
+
+Alert teams
+
+Track remediation
+
+Remove policy once safe version exists
