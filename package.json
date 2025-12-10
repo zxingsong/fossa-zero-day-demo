@@ -1,7 +1,41 @@
 {
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
   "name": "jenkins-pipeline-demo",
-  "version": "1.0.0",
-  "dependencies": {
-    "xyz-lib": "0.0.1"
-  }
+  "documentNamespace": "https://example.com/spdx/jenkins-pipeline-demo-1.0.0",
+  "creationInfo": {
+    "created": "2025-01-01T00:00:00Z",
+    "creators": [
+      "Tool: FOSSA-Demo-Generator",
+      "Person: Ilan Singer"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-App",
+      "name": "jenkins-pipeline-demo",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-xyz-lib",
+      "name": "xyz-lib",
+      "versionInfo": "0.0.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-App",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-xyz-lib"
+    }
+  ]
 }
