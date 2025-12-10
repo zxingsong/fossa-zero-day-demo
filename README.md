@@ -28,3 +28,21 @@ Internal research
 Suspicious behavior
 
 ✅ This is exactly where SBOMs + policy enforcement shine.
+
+&&&&&&&&&&
+
+Here:
+
+xyz-lib is the “package”
+
+0.0.1 is the version
+
+It doesn’t need to exist in npm
+
+FOSSA only needs to see the declaration to:
+
+Track it
+
+Include it in the SBOM
+
+Apply policies
