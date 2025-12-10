@@ -1,0 +1,7 @@
+{
+  "name": "jenkins-pipeline-demo",
+  "version": "1.0.0",
+  "dependencies": {
+    "xyz-lib": "0.0.1"
+  }
+}
